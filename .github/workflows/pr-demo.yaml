@@ -1,0 +1,13 @@
+name: PR Demo Workflow
+
+on:
+  pull_request:
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say hello
+        run: echo "This is a demo workflow for pull requests!"
+
